@@ -1,0 +1,125 @@
+.main__container {
+  background-color: #0c1066;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.img-user-icon {
+  width: 5rem;
+  height: 5rem;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+  background-size:cover; width:auto;
+  background-image:url('../../../assets/background.jpg');
+  background-position: 50% 50%;
+}
+.login-card {
+  /*display: flex; */
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 5, 0.8);
+  width: 25%;
+  height: 80%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.login-welcome-screen {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 5 5;
+  background: linear-gradient(#42A8F2, #7611f9);
+}
+
+.login-content {
+  /*flex: 3 3; */
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-form {
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+
+}
+
+.login__illustration {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.login-welcome-text {
+  color: #39437a;
+  letter-spacing: 0.03rem;
+  margin-bottom: 6rem;
+  animation-duration: 2s;
+}
+
+.login-input {
+  margin: 0.75rem 0;
+  padding: 1rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2); 
+  /* box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+  */
+  animation-duration: 2s;
+}
+
+.login-btn {
+  background: linear-gradient(#42A8F2, #7611f9);
+  padding: 1rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  animation-duration: 2s;
+}
+
+.login-btn:hover {
+  background: linear-gradient(to right, #e21649, #ffb600);
+}
+
+.login-input::placeholder {
+  color: #39437a;
+  font-size: 0.9rem;
+}
+
+.signup-notice {
+  margin-top: 1rem;
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.signup-link {
+  text-decoration: none;
+  color: #ff3a82;
+}

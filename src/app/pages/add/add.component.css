@@ -1,0 +1,37 @@
+.add-page-weather {
+    background: linear-gradient(#FC7DB8, #495CFC);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    overflow: hidden;
+
+    align-items: center;
+    /*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    */
+    top: 5rem;
+}
+.background-gradient__circle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    height: 120%;
+  }
+  .back__button {
+    position: absolute;
+    top: 2rem;
+    left: 2.25rem;
+    width: 5rem;
+    cursor: pointer;
+    z-index: 3;
+  }
